@@ -1,0 +1,39 @@
+{
+  "name": "@justinlettau/tslint-config",
+  "version": "0.1.0",
+  "description": "TSLint sharable config for my projects.",
+  "keywords": [
+    "tslint",
+    "lint",
+    "typescript",
+    "config"
+  ],
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "https://justinlettau.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/justinlettau/tslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/tslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/justinlettau/tslint-config/issues"
+  },
+  "main": "tslint.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "tslint": ">=5.0.0",
+    "typescript": ">=3.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
+}
